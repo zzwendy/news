@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" hostname="YH-20160814DLGC" name="log" tests="2" time="0.0" timestamp="2016-11-05T06:18:43">
+  <properties />
+  <testcase classname="com.news.test.testcases.TestCase1" name="testTestCase1" time="0.01">
+    <failure message="鏀惰棌鐨勬柊闂绘爣棰樹笉涓�鑷� expected:&lt;娴佹氮濂冲崰100骞崇背缁垮寲甯� 鎼�&quot;涓夊涓�鍘�&quot;&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">
+	at com.news.test.testcases.TestCase1.testTestCase1(TestCase1.java:45)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+</failure>
+  </testcase>
+  <testcase classname="com.news.test.testcases.TestCase2" name="testTestCase2" time="0.001" />
+</testsuite>

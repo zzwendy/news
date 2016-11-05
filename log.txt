@@ -1,0 +1,198 @@
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.news.test.testcases.TestCase1:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testTestCase1
+INSTRUMENTATION_STATUS: class=com.news.test.testcases.TestCase1
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.netease.newsreader.activity:id/biz_newspage_menu_more]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.news.test.pages.PageNewsDetail.clickMoreTextView(PageNewsDetail.java:25)
+	at com.news.test.testcases.TestCase1.testTestCase1(TestCase1.java:39)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=收藏]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.news.test.pages.PageNewsDetail.clickFavoritesTextView(PageNewsDetail.java:33)
+	at com.news.test.testcases.TestCase1.testTestCase1(TestCase1.java:40)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=com.netease.newsreader.activity:id/title]
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+	at com.news.test.pages.PageMyFavorites.getTitleTVText(PageMyFavorites.java:25)
+	at com.news.test.testcases.TestCase1.testTestCase1(TestCase1.java:44)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+Failure in testTestCase1:
+junit.framework.ComparisonFailure: 收藏的新闻标题不一致 expected:<流浪女占100平米绿化带 搭"三室一厅"> but was:<null>
+	at com.news.test.testcases.TestCase1.testTestCase1(TestCase1.java:45)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testTestCase1
+INSTRUMENTATION_STATUS: class=com.news.test.testcases.TestCase1
+INSTRUMENTATION_STATUS: stack=junit.framework.ComparisonFailure: 收藏的新闻标题不一致 expected:<流浪女占100平米绿化带 搭"三室一厅"> but was:<null>
+	at com.news.test.testcases.TestCase1.testTestCase1(TestCase1.java:45)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.F
+Time: 67.43
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.news.test.testcases.TestCase2:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testTestCase2
+INSTRUMENTATION_STATUS: class=com.news.test.testcases.TestCase2
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=0, RESOURCE_ID=com.netease.newsreader.activity:id/biz_navi_tab]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.news.test.pages.PageNavigation.goToNewsTab(PageNavigation.java:50)
+	at com.news.test.testcases.TestCase2.testTestCase2(TestCase2.java:17)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CLASS=android.widget.LinearLayout, INSTANCE=4]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.news.test.pages.PageNews.clickNewsTitleByClassName(PageNews.java:70)
+	at com.news.test.testcases.TestCase2.testTestCase2(TestCase2.java:18)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.netease.newsreader.activity:id/comment_reply_share]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.news.test.pages.PageNewsDetail.clickShareButton(PageNewsDetail.java:44)
+	at com.news.test.testcases.TestCase2.testTestCase2(TestCase2.java:19)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=QQ好友]
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+	at com.news.test.pages.PageCommon.clickByText(PageCommon.java:10)
+	at com.news.test.testcases.TestCase2.testTestCase2(TestCase2.java:20)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:306)
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testTestCase2
+INSTRUMENTATION_STATUS: class=com.news.test.testcases.TestCase2
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 48.716
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
